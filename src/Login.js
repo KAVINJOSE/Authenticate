@@ -17,7 +17,7 @@ function Login() {
     const tuser = "kavin";
     const tpass = 123;
 
-    if (tuser === user && tpass === pass) {
+    if (tuser == user && tpass == pass) {
       setlogin(true);
     }
   };
